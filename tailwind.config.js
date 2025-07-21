@@ -1,10 +1,11 @@
+// tailwind.config.js
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        parastoo: ['Parastoo', 'sans-serif'],
+      },
+    },
   },
-  plugins: [],
-}
+};
